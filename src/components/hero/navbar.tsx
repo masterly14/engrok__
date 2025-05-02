@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import CryptoHero from ".";
 import { WobbleCard } from "../wobble-card";
 import ContactForm from "./contact-form";
@@ -116,7 +117,7 @@ const DummyContent = () => {
               necesidad de desarrollarlos desde cero.
             </p>
           </div>
-          <img
+          <Image
             src="/linear.webp"
             width={500}
             height={500}

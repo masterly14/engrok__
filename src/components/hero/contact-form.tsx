@@ -54,6 +54,7 @@ export default function ContactForm() {
       })
     } catch (err) {
       setError("Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo.")
+      console.log(err)
     } finally {
       setIsSubmitting(false)
     }
