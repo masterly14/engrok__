@@ -148,7 +148,7 @@ const DummyContent = () => {
               funcional, segura y escalable.
             </p>
           </div>
-          <img
+          <Image
             src="/linear.webp"
             width={500}
             height={500}
